@@ -47,7 +47,7 @@ We create a file and a class called WhereAmI.java that has a main method that pr
 **scp WhereAmI.java cs15lsp22zzz@ieng6.ucsd.edu:~/** (**zzz** refers to the last characters of your username)
 
 
-Now log in back into .ieng6 server with ssh and type **ls**, it will show you the file in the home directory and you can run and compile the file on the server.
+Now log in back into ieng6 server with ssh and type **ls**, it will show you the file in the home directory and you can run and compile the file on the server.
 
 
 ## Setting an SSH Key
@@ -60,7 +60,7 @@ To create these keys, clientside, type:
 
 **ssh -keygen** (If on Windows: **ssh-keygen -t ed25519**)
 
-When it asks for a passphrase, select the **enter** key (We do not want a passphrase). After you see the key's "randomart image", log in back into the .ieng6 server and type:
+When it asks for a passphrase, select the **enter** key (We do not want a passphrase). After you see the key's "randomart image", log in back into the ieng6 server and type:
 
 1. **mkdir .ssh**
 2. logout of server
@@ -72,7 +72,15 @@ You should now be able to log into the server from the client without your passw
 ## Optimizing Remote Running
 
 
+![OPTIMIZING](OPRR.JPG)
 
+
+In this step, we are copying the file **WhereAmI.java** into the server and running it on one line. The command for this is:
+
+**cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI**
+
+
+We are running this command server-side. I had some trouble with the OtherMain.java, but the server compiled and ran WhereAmI.java.
 
 
 
