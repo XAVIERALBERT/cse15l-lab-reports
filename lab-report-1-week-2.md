@@ -1,4 +1,7 @@
 # Lab Report 1 Week 2
+
+## By: Xavier Angeles-Cruz CSE 15L
+
 ## Installing VSCode
 
 
