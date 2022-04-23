@@ -5,7 +5,7 @@
 There are three code changes in the screenshot. I will break up the screenshot into three parts to explain the code changes my group has made, as well as their failure-inducing inputs and symptoms.
 
 
-![changecodeiff](changecodediffcopy.JPG)
+![changecodeiff](changecodediffcopy.jpg)
 
 
 ## First Code Change
