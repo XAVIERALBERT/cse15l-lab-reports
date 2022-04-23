@@ -19,7 +19,7 @@ There are three code changes in the screenshot. I will break up the screenshot i
 Symptom:
 
 
-![Symptom](symptom.JPG
+![Symptom](symptom.JPG)
 
 The relationship between the code change and failure-inducing input is that it remedies the problem where the link may have only brackets or parenthesises. This prevents an infinite loop by making the code find an opening bracket (or parenthesis) and a closing bracket (or parenthesis).
 
