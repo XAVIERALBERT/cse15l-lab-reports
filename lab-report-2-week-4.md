@@ -19,7 +19,7 @@ There are three code changes in the screenshot. I will break up the screenshot i
 Symptom:
 
 
-![Symptom](symptom.jpg)
+![Symptom](symptom.JPG
 
 The relationship between the code change and failure-inducing input is that it remedies the problem where the link may have only brackets or parenthesises. This prevents an infinite loop by making the code find an opening bracket (or parenthesis) and a closing bracket (or parenthesis).
 
@@ -35,7 +35,7 @@ The relationship between the code change and failure-inducing input is that it r
 Symptom: (Infinite Loop)
 
 
-![Symptom](symptom1.JPG)
+![Symptom](Symptom1.JPG)
 
 This code change checks if the string doesn't have an opening bracket or parenthesis. If the string doesn't have any if those things, the program returns the ArrayList.
 
@@ -43,7 +43,7 @@ This code change checks if the string doesn't have an opening bracket or parenth
 ## Third Code Change
 
 
-![thirdcodechange](Capture34.jpg)
+![thirdcodechange](Capture34.JPG)
 
 
 [Link to failure-inducing input file](https://github.com/XAVIERALBERT/markdown-parser/blob/main/test-file3.md)
@@ -51,6 +51,6 @@ This code change checks if the string doesn't have an opening bracket or parenth
 Symptom: (Infinite Loop)
 
 
-![Symptom](infinite.jpg)
+![Symptom](infinite.JPG)
 
 This code change is a change of position of the if statements from the second code change. The code change prevents an infinite loop for empty brackets or parenthesises. 
