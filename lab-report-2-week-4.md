@@ -5,13 +5,13 @@
 There are three code changes in the screenshot. I will break up the screenshot into three parts to explain the code changes my group has made, as well as their failure-inducing inputs and symptoms.
 
 
-![changecodeiff](changecodediffcopy.jpg)
+![changecodeiff](changecodediffcopy.JPG)
 
 
 ## First Code Change
 
 
-![firstcodechange](Capture.jpg)
+![firstcodechange](Capture.JPG)
 
 
 [Link to failure-inducing input file](https://github.com/XAVIERALBERT/markdown-parser/blob/main/test4-file.md) 
@@ -27,7 +27,7 @@ The relationship between the code change and failure-inducing input is that it r
 ## Second Code Change
 
 
-![secondcodechange](Capture12233.jpg)
+![secondcodechange](Capture12233.JPG)
 
 
 [Link to failure-inducing input file](https://github.com/XAVIERALBERT/markdown-parser/blob/main/test3-file.md) 
