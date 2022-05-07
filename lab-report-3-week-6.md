@@ -58,3 +58,25 @@ Screenshot of markdown-parse dir on ieng6:
 
 
 ### Compiling and Running Tests
+
+I was not able to get the parser to run on one line. I was given errors that I didn't understand:
+
+The command I ran into the terminal:
+
+
+![terminalcommand](runningtests.JPG)
+
+
+The error I received:
+
+
+![error](error.JPG)
+
+
+The outcome was supposed to be a success of running the tests:
+
+
+![success](tests.JPG)
+
+
+
