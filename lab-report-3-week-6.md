@@ -24,6 +24,21 @@
 
 ## Setup GitHub Access from ieng6
 
+### Github public key
+
+
+![public](githubpublickey.JPG)
+
+
+### Private ieng6 key
+
+
+![private](sshprivatekey.JPG)
+
+
+### Git Actions
+
+
 
 
 
