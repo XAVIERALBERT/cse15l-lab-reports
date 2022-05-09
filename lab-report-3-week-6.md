@@ -38,10 +38,18 @@
 
 ### Git Actions
 
+Screenshots:
 
 
+![gitstatus](gitstatus.JPG)
 
 
+![gitpushoriginmain](gitpushoriginmain.JPG)
+
+
+Link to resulting commit:
+
+[Test-File3.md commit](https://github.com/XAVIERALBERT/markdown-parser/commit/8c8375663958f66777211c08a34cd386d1593f12)
 
 ## Copying Whole Directories with scp -r
 
