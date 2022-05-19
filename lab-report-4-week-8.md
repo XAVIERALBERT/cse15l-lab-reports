@@ -24,11 +24,15 @@ This test passed.
 
 #### Snippet 1 
 
+![Snippet1Reviewed](Snippet-1R.JPG)
 
+This test has failed. The error included states there is a link missing from the "links" ArrayList.
 
 #### Snippet 2
 
+![Snippet2Reviewed](Snippet-2R.JPG)
 
+This test has failed. The error included states there is a link missing from the "links" ArrayList.
 
 #### Snippet 3
 
