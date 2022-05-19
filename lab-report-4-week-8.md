@@ -12,7 +12,9 @@ This test passed.
 
 #### Snippet 2
 
+![Snippet2](Snippet2.JPG)
 
+This test passed.
 
 #### Snippet 3
 
