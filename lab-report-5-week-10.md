@@ -19,15 +19,15 @@ For the first test, this difference was obvious, my implementation of the markdo
 
 For this test, my implementation of markdown parser (my-markdown-parser) is incorrect. My implementation returned a list of random characters, while the lab implementation returned an empty list.
 
-#### my-markdown-parser
+### my-markdown-parser
 
 ![12.mdmy](myparserimpl12.JPG)
 
-#### cse15lsp22-markdownparser
+### cse15lsp22-markdownparser
 
 ![12.mdlab](labimpl12.JPG)
 
-#### expected
+### expected
 
 ![expected](expected12.JPG)
 
