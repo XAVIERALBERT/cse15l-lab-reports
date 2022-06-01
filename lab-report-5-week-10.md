@@ -14,6 +14,25 @@ For the first test, this difference was obvious, my implementation of the markdo
 
 ### Test File 194.md
 
+For this test, my implementation of markdown parser (my-markdown-parser) is incorrect. There is an infinite loop error at test file 194.md. The lab implementation returned a list of only one element in it.
+
+### my-markdown-parser
+
+![194.mdmy](my194.JPG)
+
+### cse15lsp22-markdownparser
+
+![194.mdlab](lab194.JPG)
+
+### expected
+
+![expected](expected194.JPG)
+
+We can infer that the lab implementation is correct by looking at the preview for 194.md. The highlighted region indicates in the preview indicates a legal link, so the expected value should only have one link in the list: url. 
+
+The fix for my implemention isn't a small one, there needs to be a major rework on the code. I do not have a fix for the program, when looking over my implementation of markdown-parser, the code made sense where it would find the first opening and closing parenthesis and bracket for it to be a legal link. I couldn't pinpoint exactly when the recurring number 20 is happening (even when I tried to edit some possible lines of code through vim).
+
+![code that needs to be fixed](codeneedfix.JPG)
 
 ### Test File 12.md
 
